@@ -1,0 +1,19 @@
+h1{
+    color: red;
+}
+
+a{
+    color: yellowgreen;
+}
+
+#contenu{
+    background-color: lightgray;
+}
+
+.secondediv{
+    text-align: right;
+}
+
+#secondp{
+    font-size: 2em;
+}
