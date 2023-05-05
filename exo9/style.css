@@ -1,0 +1,37 @@
+div, p{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    border-width: 2px;
+    border-style: solid;
+}
+
+#un{
+    position: relative;
+    background-image: linear-gradient(to left bottom, red, green, blue);
+}
+
+#deux{
+    position: relative;
+    background-image: linear-gradient(-70deg, yellow 0%, purple 25%);
+}
+
+p{
+    position: relative;
+    background-image: linear-gradient(white, rgba(0,0,0,0.5));
+}
+
+#trois{
+    position: relative;
+    background: radial-gradient(circle at center, pink, rgb(0, 247, 255));
+}
+
+#quatre{
+    position: relative;
+    background: repeating-radial-gradient(10px, white, black)
+}
+
+#quatre:hover{
+    position: relative;
+    background: repeating-radial-gradient(10px, black, white)
+}
