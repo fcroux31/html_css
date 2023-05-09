@@ -4,18 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
+    
     <form method="post" action="monprogphp">
-        <label for="prenom">Prénom:</label>
-        <input type="text" name="prenom" placeholder="Ex: Jacques" minlength="2" maxlength="20" id="prenom"></br>
-        <label for="nom">Nom:</label>
-        <input type="text" name="nom" placeholder="Ex: Dubois" minlength="2" maxlength="20" id="nom"></br>
-        <label for="email">E-mail</label>
-        <input type="email" name="email" placeholder="Ex: monMail@FAI.com" id="email"></br>
-        <label for="tel">Numéro</label>
-        <input type="tel" name="tel" placeholder="Ex: 00.11.22.33.44" id="tel">
+        <fieldset>
+            <legend>Infos Personnelles</legend>
+                <label for="prenom">Prénom:</label>
+                <input type="text" name="prenom" placeholder="Ex: Jacques" minlength="2" maxlength="20" id="prenom"></br>
+                <label for="nom">Nom:</label>
+                <input type="text" name="nom" placeholder="Ex: Dubois" minlength="2" maxlength="20" id="nom"></br>
+                <label for="email">E-mail</label>
+                <input type="email" name="email" placeholder="Ex: monMail@FAI.com" id="email"></br>
+                <label for="tel">Numéro</label>
+                <input type="tel" name="tel" placeholder="Ex: 00.11.22.33.44" id="tel"></br>
+                <label for="pw">Mot de passe:</label>
+                <input type="password" name="pw" placeholder="Ex: P@ssWo4d" minlength="8" maxlength="30" id="pw"></br>
+                <label for="age">Age:</label>
+                <input type="number" name="age" placeholder="Ex: 15" id="age"></br>
+                <label for="text">Laissez un commentaire:</label></br>
+                <textarea name="text" placeholder="J'adore ce que vous faites !" rows="10" cols="70" id="text"></textarea></br>
+                <label for="date">Date de mon commentaire:</label>
+                <input type="date" name="date" id="date"></br>
+                <label for="file">Ma photo:</label>
+                <input type="file" name="file" accept=".jpg, .png, .gif"></br>
+        </fieldset>
+        <fieldset>
+            <legend>Vous préférez:</legend>
+                <input type="checkbox" checked name="html" id="html">
+                <label for="html">Le HTML</label></br>
+                <input type="checkbox" name="css" id="css">
+                <label for="css">Le CSS</label></br>
+                <input type="checkbox" name="js" id="js">
+                <label for="js">Le JavaScript</label></br>
+                <input type="checkbox" name="nrf" id="nrf">
+                <label for="nrf">Ne rien faire</label>
+        </fieldset> 
     </form>
 </body>
 </html>
