@@ -1,0 +1,17 @@
+table{
+    border: thick double rgb(201, 28, 201);
+    border-collapse: collapse;
+    text-align: center;
+}
+
+caption{
+    color: rgb(201, 28, 201);
+}
+
+th, tr, td{
+    border: 2px solid black;
+}
+
+th{
+    background-color: lightblue;
+}
