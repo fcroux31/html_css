@@ -2,6 +2,7 @@ table{
     border: thick double rgb(201, 28, 201);
     border-collapse: collapse;
     text-align: center;
+    margin-bottom: 20px;
 }
 
 caption{
