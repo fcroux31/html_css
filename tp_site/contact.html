@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <img src="/banner.png" alt="banniere">
+        <h1>Un gros titre</h1>
+        <nav>
+            <ul>
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#ancre">Article</a></li>
+            <li><a href="blog.html">Gallerie</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</body>
+    <section>
+        <form method="post" action="monprogrammephp">
+            <fieldset>
+                <legend>Legende</legend>
+                    <div>
+                        <label for="nom">Entrez votre nom <span>*</span></label>
+                        <input type="text" required name="nom" placeholder="Ex: Dupont" minlength="2" maxlength="20" id="nom">
+                    </div>
+                    <div>
+                        <label for="mail">Entrez votre email <span>*</span></label>
+                        <input type="email" required name="mail" placeholder="Ex: jean.dupont@gmail.com" id="mail">
+                    </div>
+                    <div>
+                        <label for="text">Laissez un commentaire</label>
+                        <textarea name="text" rows="10" cols="70" placeholder="Ce qu'il vous passe par la tête" id="text"></textarea>
+                    </div>
+                    <div>
+                        <label for="box">Envoyer une copie</label>
+                        <input type="checkbox" checked name="box" id="box">
+                    </div>
+                    <div>
+                        <input type="button" value="submit">
+                        <input type="button" value="reset">
+                    </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer>
+        <ul>
+            <li><a href="test.html">Lien 1</a></li>
+            <li><a href="test.html">Lien 2</a></li>
+            <li><a href="test.html">Lien 3</a></li>
+            <li><a href="test.html">Lien 4</a></li>
+            <li><a href="test.html">Lien 5</a></li>
+        </ul>
+    </footer>
+</html>
