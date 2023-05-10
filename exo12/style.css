@@ -1,0 +1,27 @@
+p{
+    background-color: grey;
+    border: solid 2px green;
+}
+
+.un{
+    height: 100px;
+    margin: 0 auto;
+}
+
+.deux{
+    width: 50%;
+    margin: 20px 5px;
+}
+
+.trois{
+    height: 200px;
+    width: 200px;
+    overflow: scroll;
+    margin: auto;
+}
+
+body{
+    background-color: blueviolet;
+    margin: 0 auto;
+}
+
