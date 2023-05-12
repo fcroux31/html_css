@@ -1,0 +1,46 @@
+html{
+    background-color: lightgrey;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+article{
+    margin: 50px 50px;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+article > p{
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    color: grey;
+}
+
+@media screen and (max-width: 1300px) { 
+    section{
+        display:grid;
+        grid-template-columns: 1fr;
+        justify-content: center;
+        padding: 10px;
+    };
+}
