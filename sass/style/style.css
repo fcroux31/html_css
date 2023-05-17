@@ -1,3 +1,7 @@
+.cardList, .socialNetwork {
+  display: flex;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +10,9 @@
 }
 
 h1 {
+  font-size: 3rem;
+  font-family: helvetica, verdana, arial, sans-serif;
+  color: blue;
   color: orange;
   text-decoration: underline rgb(30, 30, 91);
 }
@@ -16,6 +23,34 @@ p {
 
 main {
   background-color: orange;
+}
+header {
+  background-color: orange;
+}
+header > nav {
+  color: black;
+  width: 500px;
+}
+header > nav ~ img {
+  height: 300px;
+  width: 500px;
+}
+
+.article {
+  border: solid 2px black;
+}
+.article__h3 {
+  text-decoration: underline;
+  color: rgb(30, 30, 91);
+}
+.article__h3--active {
+  color: red;
+}
+
+.card__title {
+  font-size: 3rem;
+  font-family: helvetica, verdana, arial, sans-serif;
+  color: orange;
 }
 
 /*# sourceMappingURL=style.css.map */

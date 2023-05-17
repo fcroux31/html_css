@@ -1,0 +1,24 @@
+//***RESET CSS***//
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+h1{
+    @include bigTitle(blue);
+    color: $primaryColor;
+    text-decoration: underline $secondaryColor;
+}
+
+p{
+    color: $textColor;
+}
+
+main{
+    background-color: $primaryColor;
+    > {
+        color: $textColor;
+    }
+}
